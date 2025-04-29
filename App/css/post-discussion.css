@@ -1,0 +1,265 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+/*header*/
+.header {
+    background-color: white;
+    height: 5%;
+    width: 100%;
+    margin-top: 0.5em;
+    border-bottom: #f08d30;
+    border-bottom-width: 0.15em;
+    border-top-width: 0em;
+    border-right-width: 0em;
+    border-left-width: 0em;
+    border-style: solid;
+}
+
+.title {
+    width: 20%;
+    margin-bottom: auto;
+    margin-top: 0.8em;
+}
+
+.title h1 {
+    color: #30d2db;
+    text-align: start;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pages {
+    width: 30%;
+    margin-top: 0.5em;
+    margin-left: 0.4em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#posts {
+    width: 30%;
+    border-right: lightgrey;
+    border-right-width: 0.1em;
+    border-left-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-style: dotted;
+    text-align: center;
+}
+
+#posts img {
+    height: 3.65em;
+}
+
+#discussions {
+    width: 30%;
+    text-align: center;
+}
+
+#discussions img {
+    height: 3.65em;
+}
+ 
+#companies {
+    width: 30%;
+    border-left: lightgrey;
+    border-left-width: 0.1em;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-style: dotted;
+    text-align: center;
+}
+
+#companies img {
+    height: 3.65em;
+}
+
+.user-section {
+    width: 20%;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.user-section img{
+    height: 3.65em;
+    border-radius: 30px;
+    color: #30d2db;
+    text-align: center;
+}
+/*end of header*/
+
+/*main*/
+.mid-screen{
+    width: 100%;
+    height: 100%;
+}
+
+.left-space{
+    width: 33.3%;
+    height: 49.5em;
+}
+
+.main{
+    width: 37%;
+    height: 100%;
+    background-color: white;
+}
+
+.post-form{
+    text-align: center;
+    margin:auto;
+}
+
+.right-space{
+    width: 33.3%;
+    height: 49.5em;
+}
+
+.form-title{
+    width: 100%;
+    height: 3em;
+
+    color: #30d2db;
+}
+
+.form-title h1{
+    text-decoration: underline;
+}
+
+.discussion-header{
+    width: 100%;
+    height: 7em;
+    
+    border: solid #30d2db;
+    border-top-width: 0;
+    border-bottom-width: 0.2em;
+    border-left-width: 0;
+    border-right-width: 0;
+
+    overflow: hidden;
+}
+
+.profile-image{
+    width: 15%;
+    height: 100%;
+}
+.profile-image img{
+    
+    max-height: 4em;
+    max-width: 4em;
+
+    border-radius: 30px;
+
+    margin-top: 1em;
+    margin-left: 1em;
+
+    border-width: 1em;
+    border: #30d2db;
+    border-style: groove;
+}
+
+.username{
+    width: 15%;
+    height: 100%;
+
+    margin-top: 1.5em;
+
+    font-weight: bold;
+    font-size: 1rem;
+
+    text-align: start;
+}
+
+.discussion-title{
+    width: 69%;
+    height: 100%;
+}
+
+#discussion-title{
+    width: 20em;
+    height: 3em;
+
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+    margin-top: 15px;
+
+}
+
+.post-form-text{
+    width: 100%;
+    height: 10em;
+
+    overflow: auto;
+}
+
+#post-text{
+    width: 98.7%;
+    height: 10em;
+    resize: none;
+    font-size: 1rem;
+
+    margin-top: 20px;
+    border:black solid 3px;
+}
+
+.discussion-form{
+    width: 100%;
+    height: 100%;
+}
+
+.addPhoto{
+    width: 100%;
+    height: 3m;
+}
+
+.addPhoto p{
+    width: 30%;
+    font-size: 1.25rem;
+    color: #f08d30;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.addPhoto input{
+    width: 60%;
+}
+
+.upload-button{
+    width: 100%;
+    height: 3.5em;
+    text-align: center;
+}
+
+#submitButton{
+    width: 80%;
+    height: 3.5em;
+
+    background-color: #30d2db;
+    color: white;
+
+    font-size: 1.25rem;
+    margin-top:50px;
+}
+
+.footer {
+    width: 100%;
+    height: 5em ;
+    background-color: #6b6b6b;
+}
+
+/*end of container*/

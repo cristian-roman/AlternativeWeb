@@ -1,0 +1,400 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+/*header*/
+.header {
+    background-color: white;
+    height: 5%;
+    width: 100%;
+    margin-top: 0.5em;
+    border-bottom: #f08d30;
+    border-bottom-width: 0.15em;
+    border-top-width: 0em;
+    border-right-width: 0em;
+    border-left-width: 0em;
+    border-style: solid;
+}
+
+.title {
+    width: 20%;
+    margin-bottom: auto;
+    margin-top: 0.8em;
+}
+
+.title h1 {
+    color: #30d2db;
+    text-align: start;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pages {
+    width: 30%;
+    margin-top: 0.5em;
+    margin-left: 0.4em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#posts {
+    width: 30%;
+    border-right: lightgrey;
+    border-right-width: 0.1em;
+    border-left-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-style: dotted;
+    text-align: center;
+}
+
+#posts img {
+    height: 3.65em;
+}
+
+#discussions {
+    width: 30%;
+    text-align: center;
+}
+
+#discussions img {
+    height: 3.65em;
+}
+ 
+#companies {
+    width: 30%;
+    border-left: lightgrey;
+    border-left-width: 0.1em;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-style: dotted;
+    text-align: center;
+}
+
+#companies img {
+    height: 3.65em;
+}
+/*end of header*/
+
+/*main*/
+.main{
+    width: 100%;
+    height: 90%;
+    background-color: #f0f0f0;
+    justify-content: left;
+}
+
+.left-space{
+    width: 33.3%;
+    height: 49.5em;
+}
+
+.post-list{
+    width: 37%;
+    height: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-space{
+    width: 33.3%;
+    height: 49.5em;
+}
+
+.listed-item{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+    border: #f08d30;
+    border-width: 20px 0 0 0;
+    border-style: solid;
+}
+
+.user-section {
+    width: 20%;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.user-section img{
+    height: 3.65em;
+    border-radius: 30px;
+    color: #30d2db;
+    text-align: center;
+}
+
+.discussion-header{
+    display: flex;
+
+    width: 100%;
+    height: 7em;
+    
+    border: solid #30d2db;
+    border-top-width: 0;
+    border-bottom-width: 0.2em;
+    border-left-width: 0;
+    border-right-width: 0;
+
+    overflow: hidden;
+}
+
+.discussion-header img{
+    width: 15%;
+    height: 100%;
+    max-height: 4em;
+    max-width: 4em;
+
+    border-radius: 30px;
+
+    margin-top: 1em;
+    margin-left: 1em;
+
+    border-width: 1em;
+    border: #30d2db;
+    border-style: groove;
+}
+
+.discussion-header h4{
+    width: 40%;
+    height: 100%;
+
+    margin-top: 1.5em;
+    margin-left: 2em;
+
+    font-weight: bold;
+    font-size: 1rem;
+
+    text-align: start;
+}
+
+#discussion-title{
+    font-size: 1.25rem;
+
+    text-align: center;
+
+    overflow: auto;
+
+    word-wrap: break-word;
+}
+
+.discussion-header span{
+    margin-top: 2em;
+
+    text-align: start;
+
+    font-size: 0.85rem;
+    font-weight:unset;
+
+    color: #424242;
+}
+
+.NoPhotosSection{
+    width: 80%;
+    height: 8em;
+
+    margin: auto;
+    
+    word-wrap: break-word;
+
+    background-color: white;
+
+    overflow: auto;
+}
+.NoPhotosSection p{
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+.text-section{
+    width: 90%;
+    height: 5em;
+
+    margin: auto;
+
+    word-wrap: break-word;
+    
+    background-color: white;
+
+    overflow: auto;
+
+    border: solid #e8e8e8;
+    border-top-width: 0em;
+    border-bottom-width: 0.2em;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.text-section p{
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.photoSection
+{
+    width: 100%;
+    height: 60%;
+
+    min-height: 30em;
+    min-width: 20em;
+
+    max-width: 30em;
+}
+
+.photo{
+    margin-top: 25px;
+}
+
+.photo img{
+    max-height: 20em; 
+    max-width:  20em;
+    display: block;
+    margin: auto;
+
+    border: solid #30d2db;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+#first-photo{
+    margin: auto;
+    margin-top: 25px;
+    max-height: 30em;
+    min-width: 20em;
+
+    max-width: 30em;
+}
+
+.half{
+    width: 50%;
+    height: 100%;
+}
+
+.interact-bar{
+    width: 90%;
+    height: 4em;
+
+    margin:auto;
+    margin-top: 2.5em;
+    margin-bottom: 0em;
+
+    border: solid #30d2db;
+    border-top-width: 0.2em;
+    border-bottom-width: 0em;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+#seeAllPhotosButton{
+    height: 7em;
+    width: 7em;
+    background-color: #19d3dd;
+
+    margin: 62px 70px 62px 70px;
+
+    font-size: 1.8rem;
+    color:white;
+    font-weight: bold;
+}
+
+#seeAllPhotosButton:hover{
+    background-color: #08b4c0;
+}
+
+.up-button{
+    width: 33%;
+    height: 100%;
+
+    justify-content: left;
+}
+
+.up-button img{
+    width: 90%;
+    max-width: 4em;
+    height: 4em;
+    cursor: pointer;
+}
+
+.up-button h5{
+    width: 10%;
+    height: 100%;
+    font-size: 0.9rem ;
+    padding-top: 23px;
+    color: #f08d30;
+}
+
+.discussion-index{
+    height: 100%;
+    width: 33%;
+
+    justify-content: center;
+    text-align: center;
+    padding-top: 9px;
+}
+.discussion-index h5{
+   color: #919191;
+   font-size:  1rem;
+   font-style: normal;
+}
+
+.discussion-index h6{
+    font-size: 0.8rem;
+    color:#f08d30;
+}
+
+.toDiscussionButton{
+    width: 33%;
+    height: 100%;
+
+    justify-content: right;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.toDiscussionButton button{
+    width: 80%;
+    height: 4em;
+    background-color: white;
+    border-width: 0;
+    cursor: pointer;
+
+    font-size: 1rem;
+}
+
+/*end of main-content*/
+
+.loading{
+    height: 4em;
+
+    background-color: white;
+
+    text-align: center;
+    
+    border:solid #f08d30;
+    border-width: 20px 0 0 0;
+
+    font-weight: bold;
+
+    padding-top: 40px;
+}
+
+.footer {
+    width: 100%;
+    height: 5em ;
+    background-color: #6b6b6b;
+}
+
+/*end of container*/
