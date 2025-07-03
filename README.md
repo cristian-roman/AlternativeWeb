@@ -1,24 +1,31 @@
-# AlternativeWeb
+# Alternative Web Platform
 
-A PHP + HTML + JS web application that acts as a frontend platform for user interaction. It provides user login, discussion rooms, and posting forms — similar to a forum or collaboration platform.
+A web-based collaboration platform built with PHP, HTML, JavaScript, and CSS. Features user authentication, discussion rooms, and dynamic messaging similar to a forum/chat app.
 
-Structure Insights:
-Located in App/
+## Features
 
-Technologies used:
+- User login and registration system
+- Discussion hub for posting and interacting
+- Real-time chart/message updating (via PHP backend)
+- Modular backend handling via connection layers
+- UI designed for clarity and ease of use
 
-PHP (for backend communication and database interaction)
+## Tech Stack
 
-HTML/CSS/JS (for frontend)
+- PHP (backend logic)
+- HTML/CSS/JavaScript (frontend)
+- MySQL (assumed for DB from PHP structure)
 
-Major components:
+## Project Structure
 
-Connections/: Handles DB connections for discussions, events, images, users, etc.
+- `App/html/`: Pages for login, register, discussions
+- `App/Connections/`: Handles DB interactions
+- `App/scripts/`: JavaScript logic for dynamic behavior
+- `App/css/`: Custom styles for various pages
+- `Snapshots/`: UI previews
 
-html/: Contains UI pages (discussions, login/register)
+## Running Locally
 
-database-comunication/: PHP scripts for message handling, login/registration, chart updates
-
-UI assets in images/, css/, scripts/
-
-Includes UI snapshots in Snapshots/
+1. Place the project in your local web server root (`htdocs/` for XAMPP, etc.)
+2. Setup your database schema (not included, assumed from code)
+3. Access via `http://localhost/AlternativeWeb-main/App/html/login-register`
